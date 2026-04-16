@@ -1,0 +1,19 @@
+const express = require('express');
+const router = express.Router()
+const hostname = process.env.HOSTNAME
+const username = process.env.USERNAME
+const password = process.env.PASSWORD
+const database = process.env.DATABASE
+const mysql = require('mysql');
+
+let conn = null;
+
+
+function connect(){
+	
+	
+	
+}
+
+
+router.get("/",(req,res)=>{});
